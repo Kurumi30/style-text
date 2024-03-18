@@ -1,17 +1,17 @@
 {
   "name": "style-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/server.js",
   "scripts": {
     "test": "npx tsx watch --env-file .env test/dev.spec.ts",
     "dev": "npx tsx watch --env-file .env src/server.ts",
-    "build": "rm -rf build && tsc",
+    "build": "rm -rf build && npx tsc",
     "start": "node build/server"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kurumi30",
+  "license": "MIT",
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^4.17.21",
