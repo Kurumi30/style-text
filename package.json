@@ -1,13 +1,13 @@
 {
   "name": "style-text",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "build/server.js",
   "scripts": {
     "test": "npx tsx watch .env test/dev.spec.ts",
     "dev": "npx tsx watch --env-file .env src/server.ts",
     "build": "rm -rf build && npx tsc",
-    "start": "node --env-file .env build/server"
+    "start": "node build/server"
   },
   "keywords": [],
   "author": "Kurumi30",
